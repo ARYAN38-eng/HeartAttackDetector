@@ -5,7 +5,7 @@ import pickle
 ohe=pickle.load(open('heartattackohe.pkl','rb'))
 rfc=pickle.load(open('heartattackrf.pkl','rb'))
 df=pickle.load(open('heartattackdf.pkl','rb'))
-sc=pickle.load(open('heartattacksc.pkl','rb'))
+sc=pickle.load(open('heartattackSC.pkl','rb'))
 st.title("Heart Attack Detection")
 st.sidebar.image("iStock-1156928054.jpg", caption="Heart Attack", use_column_width=True)
 description = """
